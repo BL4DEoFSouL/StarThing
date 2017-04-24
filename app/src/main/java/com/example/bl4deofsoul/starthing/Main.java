@@ -4,10 +4,16 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Spinner;
 
 public class Main extends AppCompatActivity {
-    public void Fortell(View v){
+    protected void Fortell(View v){
         Intent a = new Intent(this,ForTellIndex.class);
+        startActivity(a);
+    }
+
+    protected void num(View v){
+        Intent a = new Intent(this,NumIndex.class);
         startActivity(a);
     }
     @Override

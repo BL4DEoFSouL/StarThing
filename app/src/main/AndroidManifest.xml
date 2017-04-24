@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ForTellIndex" />
-        <activity android:name=".fortellResult"></activity>
+        <activity android:name=".fortellResult" />
+        <activity android:name=".NumIndex" />
+        <activity android:name=".NumResult"></activity>
     </application>
 
 </manifest>
